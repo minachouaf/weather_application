@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+height: 100vh;
+  background:linear-gradient(rgb(52, 105, 219),rgb(189, 189, 199))
+}
+.App{
+  margin:10px auto;
+  width: 40%;
+  background-color: rgb(32, 134, 230);
+  color: white;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 90vh;
+
+  padding-top: 100px;
+  padding-left: 50px;
+  scroll-padding-right: 50px;
+}
+input{
+  color: rgb(54, 53, 53);
+  display: block;
+  border:0;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
+  width: 90%;
+  background-color:transparent;
+  margin: 20px  auto;
+  font-weight: lighter;
+  font-size: 20px;
+  outline: none;
+
+}
+
+.Weather{
+  font-weight: 300;
+  margin-left: 30px;
+  margin-right: 40px;
+
+}
+.Weather p{
+  border-bottom: solid 2px rgb(59, 138, 240);
+  font-weight: 400;
+}
+h1{
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+input:last-of-type{
+  width: 30%;
+  background-color: rgb(105, 98, 98);
+
+  color: white;
+  cursor: pointer;
+  margin-left: 60%;
+  border: 0;
+  font-size: 15px;
+  padding: 8px 20px;
+  font-weight: lighter;
+  border-radius: 2px;
+}
+
